@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1f2937;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 550px;
+  width: 100%;
+  min-height: 550px;
+  padding: 52px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: #4adf86 2px solid;
+}
+
+.upper {
+  padding: 44px 0px;
+  border-bottom: 1px #6b7280 solid;
+}
+
+.upper h2 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 2.5%;
+  text-align: left top;
+}
+
+.upper #one {
+  color: #1f2937;
+}
+
+.upper #two {
+  color: #4adf86;
+}
+
+.upper p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6b7280;
+}
+
+.btn {
+  padding: 12px 16px;
+  background-color: #4adf86;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.confirm {
+  background-color: #273549;
+}
+
+.input-box {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 28px 0px 0px 0px;
+}
+
+.input-box label {
+  background-color: #ffffff;
+  color: #4adf86;
+  position: absolute;
+  padding: 0px 4px;
+  top: -8px;
+  left: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  display: none;
+}
+
+.input-box #input-el {
+  font-size: 16px;
+  padding: 8px;
+  font-weight: 500;
+  line-height: 32px;
+  background-color: #ffffff;
+  border: #6b7280 1px solid;
+  outline: none;
+  border-radius: 4px;
+}
+
+.input-box #input-el::placeholder {
+  color: #6b7280;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2.5%;
+}
+
+.input-box #input-el:focus {
+  border: #4adf86 1px solid;
+  outline: none;
+}
+
+.input-box #input-el:focus + label {
+  display: block;
+}
+
+.input-box #input-el:focus::placeholder {
+  opacity: 0;
+}
+
+.input-box #input-el:not(:placeholder-shown) + label {
+  display: block;
+}
+
+.lower {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lower span {
+  margin: 32px 0px 0px 0px;
+  min-width: 212px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4adf86;
+  background-color: #273549;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  gap: 16px;
+}
+
+.lower span p {
+  font-size: 16px;
+  line-height: 28px;
+}
