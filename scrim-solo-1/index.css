@@ -1,8 +1,18 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+  max-width: 600px;
+  min-height: 400px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(156, 156, 156);
+}
+
+.home,
+.away {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
