@@ -2,8 +2,6 @@
 
 body {
   margin: 0;
-  width: 100vw;
-  height: 100vh;
   background-color: #1f2937;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -18,7 +16,6 @@ body {
   justify-content: space-evenly;
   max-width: 550px;
   width: 100%;
-  min-height: 550px;
   padding: 52px;
   background-color: #ffffff;
   border-radius: 8px;
